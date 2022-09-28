@@ -1,38 +1,54 @@
-.App {
-  text-align: center;
+/* .pic{
+    background: url(images.jpg) no-repeat center/cover;
+} */
+
+.pic{
+    color:white;
+    background: url(../src/Pictures/image.jpg) no-repeat center/cover;
+    /* background-color: rgb(69, 110, 97); */
+    height: 300px;
+    
+}
+.font{
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+.input-group.inp{
+    margin: 0 auto;
+    width: 40%;
+}
+.but{
+width: 100px;
+}
+.cardedit h5{
+    font-family: cursive;
+}
+.cardedit ul li{
+    font-family: 'Oleo Script Swash Caps';
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.style{
+    font-family: cursive;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card{
+    margin-top: 59px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiCard-root.cardd.css-1xez8po-MuiPaper-root-MuiCard-root {
+    margin-top: 59px;
 }
-
-.App-link {
-  color: #61dafb;
+span.MuiTypography-root.MuiTypography-h5.MuiCardHeader-title.css-1qvr50w-MuiTypography-root {
+    font-size: large;
+    font-family: cursive;
+    text-align: center;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.n{
+    color: rgb(180, 114, 119);
+    font-weight: bold;
+}
+.cook{
+    color: sienna;
+    margin-right: 6px;
+}
+.cook1{
+    color: rgb(19, 20, 21);
+    margin-right: 28px;
 }
